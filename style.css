@@ -1,0 +1,92 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  background-color: white;
+}
+
+#scoreBox{
+  text-align: center;
+  background-color: peachpuff;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.block{
+  background-color: peachpuff;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+#quizBox{
+  background-color: peachpuff;
+  border-radius: 10px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+li,
+.nav-link {
+  height: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  color: black;
+  font-size: 1.3em;
+  line-height: 1.5;
+}
+
+li:before {
+  content: "\200B";
+  position: absolute;
+}
+
+li::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.submit-button,
+.answer-button {
+  color: white;
+  padding: 2px 1px;
+  text-align: center;
+  border: none;
+  min-width: 50px;
+  min-height: fit-content;
+  max-height: fit-content;
+  max-width: fit-content;
+  cursor: pointer;
+  background-color:black;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 4px;
+}
+
+li button:hover {
+  background-color: #febc5d;
+}
+
+#endpage {
+  text-align: center;
+}
+
+#highscores {
+  margin-top: 20%;
+  text-align: center;
+}
